@@ -1,0 +1,1 @@
+# NatureSnap-AI
