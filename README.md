@@ -6,7 +6,7 @@ Built for the **Hacktoberfest Open-Source AI Challenge 2026 — Week 1 Theme: �
 
 ---
 
-## 🌿 Problem
+##  Problem
 
 People often use technology to learn about nature without actually spending time in nature. Modern applications are heavily designed around screen-time maximization, endless infinite scrolling, and digital dopamine loops that keep users sedentary indoors staring at glass.
 
@@ -14,7 +14,7 @@ Even conventional nature-identification apps tend to keep users on their devices
 
 ---
 
-## 💡 Solution
+##  Solution
 
 **NatureSnap AI** flips this paradigm on its head. The app is intentionally engineered to make **the screen the shortest part of the experience**:
 
@@ -27,7 +27,7 @@ Instead of keeping users tethered to a display, NatureSnap generates an immediat
 
 ---
 
-## ✨ Features
+##  Features
 
 - **Open-Weight AI Nature Identification**: Fast, structured identification of plants, leaves, trees, flowers, insects, rocks, and mushrooms powered by open models (Gemma 2 / PaliGemma architecture).
 - **Uncertainty Communication**: When ambiguous, the AI candidly indicates *"I'm not completely sure"* and presents alternative possibilities and visual differentiators instead of false certainty.
@@ -43,7 +43,7 @@ Instead of keeping users tethered to a display, NatureSnap generates an immediat
 
 ---
 
-## 🚀 How It Works
+##  How It Works
 
 ```mermaid
 flowchart LR
@@ -63,7 +63,7 @@ flowchart LR
 
 ---
 
-## 🧠 AI Architecture
+##  AI Architecture
 
 NatureSnap AI is built around open-weight models, specifically **Google Gemma**:
 
@@ -135,7 +135,7 @@ All open models are prompted with a strict schema to prevent uncontrolled text g
 
 ---
 
-## 🌍 Why Open Innovation Matters
+##  Why Open Innovation Matters
 
 1. **Model Replaceability**: Any developer can swap the backend for smaller edge models or larger vision checkpoints without rewriting business logic.
 2. **Local Inference Potential**: As open vision-language models become more efficient (e.g., PaliGemma, Gemma 2), full on-device edge inference in the browser or on mobile becomes feasible.
@@ -145,41 +145,17 @@ All open models are prompted with a strict schema to prevent uncontrolled text g
 
 ---
 
-## 🛠️ Local Development
+##  Demo Try NatureSnap AI
 
-### Prerequisites
-- Node.js `v18+` (Tested on Node `v24`)
-- npm `v9+`
+**Explore the live app:** [NatureSnap AI — Live Demo](https://nature-snap-ai.vercel.app/)
 
-### Installation
+Snap a photo of something in nature, discover interesting facts with AI, and take on a real-world outdoor mission. 
 
-```bash
-# Clone the repository
-git clone https://github.com/huzaifa-devpk/NatureSnap-AI.git
-cd NatureSnap-AI
-
-# Install dependencies
-npm install
-
-# Start development server
-npm run dev
-```
-
-Visit `http://localhost:5173/` in your browser.
-
-### Production Build
-
-```bash
-# Verify TypeScript and build optimized production bundle
-npm run build
-
-# Preview production build locally
-npm run preview
-```
+<img width="1920" height="822" alt="naturesnap" src="https://github.com/user-attachments/assets/cb4ed37d-3a2a-4af4-8d03-6ffd8769c577" />
 
 ---
 
-## ⚙️ Environment Variables
+##  Environment Variables
 
 Copy `.env.example` to `.env`:
 
@@ -197,7 +173,7 @@ cp .env.example .env
 
 ---
 
-## 📁 Project Structure
+##  Project Structure
 
 ```
 NatureSnap-AI/
@@ -242,7 +218,7 @@ NatureSnap-AI/
 
 ---
 
-## 🔮 Future Improvements
+##  Future Improvements
 
 - **Native On-Device WebGPU Inference**: Integrate Transformers.js / WebLLM with quantized Gemma 2 for 100% offline in-browser inference on mobile devices without any network connection.
 - **Audio Nature Missions**: Voice prompts via text-to-speech so users can keep their phone in their pocket while listening to mission instructions.
@@ -253,6 +229,6 @@ NatureSnap-AI/
 
 ---
 
-## 📜 License
+##  License
 
 Released under the [MIT License](LICENSE). Built with ❤️ for the Hacktoberfest 2026 Open-Source AI Challenge.
